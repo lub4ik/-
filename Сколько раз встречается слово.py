@@ -1,0 +1,5 @@
+userString=input("Введите ваш текст: ").lower()
+word = input("Введите слово: ").lower()
+userString.count(word)
+x=userString.count(word)
+print("Слово встречается в тексте столько раз: ", x)
