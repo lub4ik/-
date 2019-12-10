@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    background: white;
+    height: 66px;
+    padding-top: none;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+header * {
+    color: black;
+}
+
+header .logo {
+    text-align: center;
+    height:inherit;
+    margin-left: 0.5em;
+    padding-bottom: 3.5em;
+}
+
+header .logo-text{
+    margin: 7px;
+    font-family: 'Rouge Script', cursive;
+    font-size: 60px;
+}
+
+header .logo-text span {
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin-top: -12px;
+    display: block;
+    color: #2E2E2E;
+    letter-spacing: 8px;
+}
+
+header ul {
+    margin-left: 0.5em;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 25px;
+    padding: 0px;
+    list-style: none;
+
+}
+
+header ul li {
+    float: none;
+    display: inline-block;
+    text-align: center;
+}
+
+header ul li a {
+    padding: 21px;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: #848484;
+    transition: 0.3s;
+}
+
+header .fa-align-justify {
+    display: none;
+}
+
+/* -----------------CONTENT--------------------- */
+
+.row {
+    margin-bottom: 18px;
+}
+
+.favourite-article-text {
+    font-size: 20px;
+}
+.favourite-article-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.favourite-article-category:hover, .favourite-article-date:hover {
+    color: darkgrey;
+}
+
+.sub-article-title {
+    font-size: 1.7em;
+    font-weight: bold;  
+}
+.sub-article-category {
+    color: darkgrey;
+}
+
+/* ----------------- BLOG POSTS ------------------- */
+
+
+
+
+
